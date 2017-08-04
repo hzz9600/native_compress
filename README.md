@@ -1,6 +1,9 @@
 # native_compress
 Using c language development of library based on JPEG images compression
 
+## 简介
+本压缩库使用的是JPEG的图片处理，因为历史原因，起初的Android版本内存小，Google采用的是Skia作为Android系统的图片压缩算法，这种算法压缩出来的图片在同等大小下跟IOS系统比清晰度差很多，为了达到好的压缩效果，参考资料修改了一个压缩库。
+
 
 * 使用
 1. gradle文件添加
